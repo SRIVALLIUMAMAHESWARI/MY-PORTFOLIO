@@ -1,0 +1,144 @@
+*{
+
+font-family: monospace;
+
+
+}
+.button{
+
+height:20px;
+width:60px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:5px;
+transition:all 2s linear 0s;
+font-size: 12px;
+}
+.button:hover{
+color:white;
+background-color:blue;
+
+
+
+}
+
+
+header{
+color:white;
+height:100vh;
+background-color:#2196f3;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+flex-wrap:wrap;
+}
+h3{
+    font-size:32px;
+    color:#2196f3;
+}
+header h2{
+             font-size: 30px;
+                color:white;
+               text-align:center;
+          text-transform: capitalize;
+}
+body{
+     font-size:17px;
+     background-color:#f0f8ff;
+    margin:0;
+}
+img{
+
+height:100px;
+width: 130px;
+}
+form div{
+
+    margin:3px 0;
+}
+
+
+
+section{
+
+    height:100vh;
+    border:1px solid grey;
+    border-radius:5px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+
+
+
+
+
+
+}
+main{
+
+    padding:10px;
+}
+.submit{
+
+    height:27px;
+width:65px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+color:white;
+background-color:#2196F3;
+font-size: 12px;
+
+
+}
+.submit:hover{
+    
+    background-color:#1178cd;
+    
+    
+
+}
+input{
+
+border:1px solid lightgrey;
+border-radius:2px;
+height:10px;
+width:90px;
+
+
+}
+a{
+
+    text-decoration:none;
+}
+footer{
+height:100px;
+color:lightgrey;
+background-color:black;
+
+display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.fixedbutton{
+
+height:50px;
+width:50px;
+border-radius:26px;
+position:fixed;
+right:10px;
+bottom:10px;
+cursor:pointer;
+color:white;
+background-color:#2196F3;
+font-size: 12px;
+
+}
